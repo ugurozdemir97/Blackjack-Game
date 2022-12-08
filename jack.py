@@ -33,6 +33,7 @@ class Screen(object):
         Window.setObjectName("Window")
         Window.resize(840, 649)
         Window.setFixedSize(840, 649)
+        Window.setWindowIcon(QtGui.QIcon('cards.png'))
         self.centralwidget = QtWidgets.QWidget(Window)
         self.centralwidget.setStyleSheet("")
         self.centralwidget.setObjectName("centralwidget")
